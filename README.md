@@ -19,6 +19,14 @@ Philosophy
 * Assets should be managed by Bower -> bower support
 * Bower should be automaticaly installed, as any usefull node script -> npm support
 
+### About bundles
+
+Nop. Your application is not "bundles".
+
+An application is an application, a bundle have to be a dependance. Not a package of your application.
+
+*You still want to develop a bundle in your application ? Don't worry, you can. Just play with it like if you have no "App" folder.* 
+
 ### Documentation files
 
 We do not disturb your home dev directory with some documentation. You can find it on the
