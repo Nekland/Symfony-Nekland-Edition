@@ -25,14 +25,14 @@ Nop. Your application is not "bundles".
 
 An application is an application, a bundle have to be a dependance. Not a package of your application.
 
-*You still want to develop a bundle in your application ? Don't worry, you can. Just play with it like if you have no "App" folder.* 
+*You still want to develop a bundle in your application ? Don't worry, you can. Just play with it like if you have no "App" folder.*
 
 ### Documentation files
 
 We do not disturb your home dev directory with some documentation. You can find it on the
 `app/Resources/doc` folder ;-) .
 
-Notice that it's a good place to documente your project :) .
+Notice that it's a good place to document your project :) .
 
 
 Here we go
