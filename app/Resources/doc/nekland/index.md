@@ -10,7 +10,7 @@ Installation
 As easy as the standard edition is ;-) . Just use composer.
 
 ```bash
-composer create-project nekland/symfony-nekland-edition YourAwesomeProjectName 2.4.0
+composer create-project nekland/symfony-nekland-edition YourAwesomeProjectName dev-master
 ```
 
 **Notices:**
