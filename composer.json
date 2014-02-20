@@ -19,8 +19,13 @@
         "sensio/framework-extra-bundle":        "2.3.*",
         "sensio/generator-bundle":              "2.3.*",
         "incenteev/composer-parameter-handler": "2.1.*",
-        "yohang/dependency-tools":              "1.0.*",
+        "yohang/dependency-tools":              "dev-master",
         "doctrine/doctrine-fixtures-bundle":    "2.2.*"
+    },
+    "require-dev": {
+        "behat/behat": "3.0.*@dev",
+        "behat/mink-extension": "2.0.*@dev",
+        "behat/mink-browserkit-driver": "1.2.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -32,7 +37,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
         ],
         "post-update-cmd": [
-            "Yohang\\DependencyTools::installDeps",
+            "Yohang\\DependencyTools::updateDeps",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
@@ -43,6 +48,12 @@
     "config": {
         "bin-dir": "bin"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Nek-/dependency-tools"
+        }
+    ],
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
@@ -55,7 +66,7 @@
         "dependency-tools": {
             "npm":   true,
             "bower": {
-                "path": "./node_modules/bower/bin/bower"
+                "path": "node_modules/.bin/bower"
             }
         }
     }
