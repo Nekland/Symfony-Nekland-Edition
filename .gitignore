@@ -12,3 +12,6 @@
 /.idea
 /app/Resources/assets
 /node_modules
+/behat.yml
+/bin
+/npm-debug.log
