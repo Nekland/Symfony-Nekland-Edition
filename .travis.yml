@@ -19,4 +19,6 @@ notifications:
     # email:
     #     - developer@example.com
 
-script: phpunit -c app
+script:
+    - phpunit -c app
+    - bin/behat --no-snippets --verbose
