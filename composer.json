@@ -18,7 +18,7 @@
         "sensio/distribution-bundle":           "~3.0",
         "sensio/framework-extra-bundle":        "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "yohang/dependency-tools":              "dev-master",
+        "nekland/dependency-tools":              "dev-master",
         "doctrine/doctrine-fixtures-bundle":    "2.2.*"
     },
     "require-dev": {
@@ -51,12 +51,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Nek-/dependency-tools"
-        }
-    ],
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",

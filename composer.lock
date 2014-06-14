@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9178ee93110a42bb66f49b2408c1f8a3",
+    "hash": "4b70c7d06cf55bbb33565b137cca251e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -670,16 +670,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab"
+                "reference": "8a13376d42b5ea467727ffe730aa0e14ca3c5e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/0363a5548d9263f979f9ca149decb9cfc66419ab",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/8a13376d42b5ea467727ffe730aa0e14ca3c5e29",
+                "reference": "8a13376d42b5ea467727ffe730aa0e14ca3c5e29",
                 "shasum": ""
             },
             "require": {
@@ -742,7 +742,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-02-08 16:35:09"
+            "time": "2014-06-10 11:49:08"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -919,16 +919,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.9.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac"
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/65026b610f8c19e61d7242f600530677b0466aac",
-                "reference": "65026b610f8c19e61d7242f600530677b0466aac",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
                 "shasum": ""
             },
             "require": {
@@ -956,7 +956,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.10.x-dev"
                 }
             },
             "autoload": {
@@ -983,7 +983,62 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-04-24 13:29:03"
+            "time": "2014-06-04 16:30:04"
+        },
+        {
+            "name": "nekland/dependency-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nekland/dependency-tools.git",
+                "reference": "1b12c92d8c5c24b1c2f6e4a7d05ce8111a24826a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nekland/dependency-tools/zipball/1b12c92d8c5c24b1c2f6e4a7d05ce8111a24826a",
+                "reference": "1b12c92d8c5c24b1c2f6e4a7d05ce8111a24826a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/process": ">=2.0,<3.0"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master",
+                "phpspec/nyan-formatters": "1.*",
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yohang": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yohan Giarelli",
+                    "email": "yohan@giarel.li",
+                    "homepage": "http://yohan.giarel.li"
+                },
+                {
+                    "name": "Maxime Veber",
+                    "email": "nek.dev@gmail.com",
+                    "homepage": "http://nekland.fr"
+                }
+            ],
+            "description": "A simple Composer script to install NPM and/or Bower dependencies",
+            "homepage": "https://github.com/nekland/dependency-tools",
+            "keywords": [
+                "bower",
+                "composer",
+                "dependency",
+                "npm"
+            ],
+            "time": "2014-06-11 22:45:37"
         },
         {
             "name": "psr/log",
@@ -1025,17 +1080,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "d7ad610b9667ed33ade22484023552eb75372a44"
+                "reference": "e9caa300faf95076c8e27693f3fdb0bb6e3148c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d7ad610b9667ed33ade22484023552eb75372a44",
-                "reference": "d7ad610b9667ed33ade22484023552eb75372a44",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/e9caa300faf95076c8e27693f3fdb0bb6e3148c0",
+                "reference": "e9caa300faf95076c8e27693f3fdb0bb6e3148c0",
                 "shasum": ""
             },
             "require": {
@@ -1080,7 +1135,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2014-05-10 12:31:39"
+            "time": "2014-06-06 02:53:20"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1141,16 +1196,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48"
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/043e336b871f17a117f76ef8e190eddfc04c8d48",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/2b9af56cc676c338d52fca4c657e5bdff73bb7af",
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af",
                 "shasum": ""
             },
             "require": {
@@ -1191,7 +1246,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-05-08 08:11:19"
+            "time": "2014-06-13 11:44:54"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -1306,21 +1361,21 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "v2.5.1",
+            "version": "v2.6.0",
             "target-dir": "Symfony/Bundle/MonologBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/MonologBundle.git",
-                "reference": "71ad844ac29401f86619f9d643393265451e858b"
+                "reference": "e1d4aa99c7440b11e9dfbfef7ed63084401dbc6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/71ad844ac29401f86619f9d643393265451e858b",
-                "reference": "71ad844ac29401f86619f9d643393265451e858b",
+                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/e1d4aa99c7440b11e9dfbfef7ed63084401dbc6a",
+                "reference": "e1d4aa99c7440b11e9dfbfef7ed63084401dbc6a",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.6",
+                "monolog/monolog": "~1.8",
                 "php": ">=5.3.2",
                 "symfony/config": "~2.3",
                 "symfony/dependency-injection": "~2.3",
@@ -1334,7 +1389,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -1364,7 +1419,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2014-02-19 14:49:26"
+            "time": "2014-06-04 16:49:13"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -1644,72 +1699,25 @@
                 "templating"
             ],
             "time": "2014-02-13 10:19:29"
-        },
-        {
-            "name": "yohang/dependency-tools",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nek-/dependency-tools.git",
-                "reference": "2fd50ef65c2b259690c978c8b76a4f617325d860"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nek-/dependency-tools/zipball/2fd50ef65c2b259690c978c8b76a4f617325d860",
-                "reference": "2fd50ef65c2b259690c978c8b76a4f617325d860",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "symfony/process": ">=2.0,<3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Yohang": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yohan Giarelli",
-                    "email": "yohan@giarel.li",
-                    "homepage": "http://yohan.giarel.li"
-                }
-            ],
-            "description": "A simple Composer script to install NPM and/or Bower dependencies",
-            "homepage": "https://github.com/yohang/dependency-tools",
-            "keywords": [
-                "bower",
-                "composer",
-                "dependency",
-                "npm"
-            ],
-            "support": {
-                "source": "https://github.com/Nek-/dependency-tools/tree/master"
-            },
-            "time": "2014-02-18 10:47:49"
         }
     ],
     "packages-dev": [
         {
             "name": "behat/behat",
-            "version": "v3.0.7",
+            "version": "v3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Behat.git",
-                "reference": "641ae00fdeded0b8df3a0cb0f88282c839566ee4"
+                "reference": "a81234028785a906b8bd432b02a8f46da7ca7286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Behat/zipball/641ae00fdeded0b8df3a0cb0f88282c839566ee4",
-                "reference": "641ae00fdeded0b8df3a0cb0f88282c839566ee4",
+                "url": "https://api.github.com/repos/Behat/Behat/zipball/a81234028785a906b8bd432b02a8f46da7ca7286",
+                "reference": "a81234028785a906b8bd432b02a8f46da7ca7286",
                 "shasum": ""
             },
             "require": {
-                "behat/gherkin": "~4.2",
+                "behat/gherkin": "~4.3",
                 "behat/transliterator": "~1.0",
                 "ext-mbstring": "*",
                 "php": ">=5.3.3",
@@ -1773,20 +1781,20 @@
                 "symfony",
                 "testing"
             ],
-            "time": "2014-05-27 22:27:08"
+            "time": "2014-06-06 03:14:13"
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.2.0",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "e94ab853871634c08771162183d8400b78b96830"
+                "reference": "43777c51058b77bcd84a8775b7a6ad05e986b5db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/e94ab853871634c08771162183d8400b78b96830",
-                "reference": "e94ab853871634c08771162183d8400b78b96830",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/43777c51058b77bcd84a8775b7a6ad05e986b5db",
+                "reference": "43777c51058b77bcd84a8775b7a6ad05e986b5db",
                 "shasum": ""
             },
             "require": {
@@ -1831,7 +1839,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2014-05-27 22:05:46"
+            "time": "2014-06-06 01:24:32"
         },
         {
             "name": "behat/mink",
@@ -2103,26 +2111,30 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "1d143fd8caf4d264602450bc01d7484af788706b"
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/1d143fd8caf4d264602450bc01d7484af788706b",
-                "reference": "1d143fd8caf4d264602450bc01d7484af788706b",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
+                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3.0-dev"
-                }
+                "branch-alias": [
+
+                ]
             },
             "autoload": {
                 "psr-0": {
@@ -2145,7 +2157,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2013-12-16 21:56:48"
+            "time": "2014-06-04 14:43:02"
         },
         {
             "name": "guzzle/guzzle",
@@ -2303,12 +2315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/FriendlyContexts.git",
-                "reference": "0b1c22f06bf0a9606a9d7e041597f9cb214543b7"
+                "reference": "3e46797d779bd88acf6daccbbf8c1bab7d38347a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/FriendlyContexts/zipball/0b1c22f06bf0a9606a9d7e041597f9cb214543b7",
-                "reference": "0b1c22f06bf0a9606a9d7e041597f9cb214543b7",
+                "url": "https://api.github.com/repos/KnpLabs/FriendlyContexts/zipball/3e46797d779bd88acf6daccbbf8c1bab7d38347a",
+                "reference": "3e46797d779bd88acf6daccbbf8c1bab7d38347a",
                 "shasum": ""
             },
             "require": {
@@ -2348,7 +2360,7 @@
                 }
             ],
             "description": "Some BEHAT contexts",
-            "time": "2014-05-28 12:58:03"
+            "time": "2014-06-05 14:09:45"
         },
         {
             "name": "nelmio/alice",
@@ -2621,7 +2633,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "yohang/dependency-tools": 20,
+        "nekland/dependency-tools": 20,
         "behat/mink-extension": 20,
         "knplabs/friendly-contexts": 20
     },
