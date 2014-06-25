@@ -6,7 +6,7 @@ default:
             path: %paths.base%/features
             contexts: [Context\FeatureContext, Behat\MinkExtension\Context\MinkContext]
     extensions:
-        Behat\MinkExtension\Extension:
+        Behat\MinkExtension\ServiceContainer\MinkExtension:
 
             # You have probably somthing like "myproject.dev" instead of "localhost"
             base_url: 'http://localhost:8080/app_test.php'
