@@ -35,10 +35,10 @@ We do not disturb your home dev directory with some documentation. You can find 
 Notice that it's a good place to document your project :) .
 
 
-Installation
-------------
+Here we go
+----------
 
-As easy as the standard edition is ;-) . Just use composer.
+Installing Symfony Nekland Edition is as easy as installing the Standard Edition ;-) . Just use composer.
 
 ```bash
 composer create-project nekland/symfony-nekland-edition YourAwesomeProjectName dev-master
