@@ -38,6 +38,16 @@ Notice that it's a good place to document your project :) .
 Here we go
 ----------
 
-First thing you have to do is to clear this README to add your text ;-) .
+Installing Symfony Nekland Edition is as easy as installing the Standard Edition ;-) . Just use composer.
 
-Then checkout the `app/Resources/doc/nekland` to learn more about this distribution.
+```bash
+composer create-project nekland/symfony-nekland-edition YourAwesomeProjectName dev-master
+```
+
+**Notices:**
+
+* The first version of the nekland edition was the 2.4. It follows symfony update as possible (yep, we are humans) !
+* Nothing to delete, really, go to your code ! :-)
+
+
+You can checkout the `app/Resources/doc/nekland` to learn more about this distribution.
