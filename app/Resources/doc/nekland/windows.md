@@ -1,6 +1,6 @@
 Windows Compatibility
 =====================
 
-Yes, as you can know, windows is a problem for developpers.
+Yes, as you may know, windows is a problem for developers.
 
-But most part of time there are solutions available to work with it.
+But most part of the time there are solutions available to work with it.
