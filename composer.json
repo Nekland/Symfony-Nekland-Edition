@@ -18,7 +18,7 @@
         "sensio/distribution-bundle":           "~3.0",
         "sensio/framework-extra-bundle":        "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "nekland/dependency-tools":              "dev-master",
+        "nekland/dependency-tools":             "dev-master",
         "doctrine/doctrine-fixtures-bundle":    "2.2.*"
     },
     "require-dev": {
@@ -27,6 +27,7 @@
         "behat/mink-extension":         "~2@dev",
         "behat/mink-browserkit-driver": "*",
         "behat/mink-selenium2-driver":  "*",
+        "behat/mink-goutte-driver":     "*",
         "phpspec/phpspec":              "~2.0",
         "knplabs/friendly-contexts":    "dev-master"
     },
