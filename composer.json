@@ -58,9 +58,6 @@
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         },
-        "branch-alias": {
-            "dev-master": "2.4-dev"
-        },
         "dependency-tools": {
             "npm":   true,
             "bower": {
