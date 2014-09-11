@@ -18,18 +18,18 @@
         "sensio/distribution-bundle":           "~3.0",
         "sensio/framework-extra-bundle":        "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "nekland/dependency-tools":             "dev-master",
-        "doctrine/doctrine-fixtures-bundle":    "2.2.*"
+        "nekland/dependency-tools":             "dev-master"
     },
     "require-dev": {
-        "sensio/generator-bundle":      "~2.3",
-        "behat/behat":                  "~3.0",
-        "behat/mink-extension":         "~2@dev",
-        "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver":  "*",
-        "behat/mink-goutte-driver":     "*",
-        "phpspec/phpspec":              "~2.0",
-        "knplabs/friendly-contexts":    "dev-master"
+        "sensio/generator-bundle":           "~2.3",
+        "behat/behat":                       "~3.0",
+        "behat/mink-extension":              "~2@dev",
+        "behat/mink-browserkit-driver":      "*",
+        "behat/mink-selenium2-driver":       "*",
+        "behat/mink-goutte-driver":          "*",
+        "phpspec/phpspec":                   "~2.0",
+        "knplabs/friendly-contexts":         "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*"
     },
     "scripts": {
         "post-install-cmd": [
