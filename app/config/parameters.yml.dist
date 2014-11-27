@@ -14,9 +14,5 @@ parameters:
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
 
-    debug_toolbar:          true
-    debug_redirects:        false
-    use_assetic_controller: true
-
     # find it with the command `whereis node`
     node_bin: /usr/bin/node
