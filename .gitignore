@@ -10,4 +10,7 @@
 /behat.yml
 /bin
 /npm-debug.log
-/var/*
+/var/bootstrap.php.cache
+/var/cache/
+/var/logs/
+/var/SymfonyRequirements.php
